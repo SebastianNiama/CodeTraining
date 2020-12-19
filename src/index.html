@@ -1,21 +1,47 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>CodeTraining</title>
-    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
-    <link rel="stylesheet" href="index.css">
-  </head>
-  <body>
-    <h1>💖 Henry Niama Sebastian</h1>
-    <p>Welcome to your Electron application.</p>
-    <p>Hi there!</p>
-
-    <br>
-    <p>
-      Estamos usando node <script>document.write(process.versions.node)</script>,
-      Chrome <script>document.write(process.versions.chrome)</script>,
-      y Electron <script>document.write(process.versions.electron)</script>.
-  </p>
-  </body>
+<head>
+	<title>CodeTraining</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+</head>
+<body>
+	<img class="wave" src="img/wave.png">
+	<div class="container">
+		<div class="img">
+			<img src="img/grafo.png">
+    </div>
+		<div class="login-content">
+			<form action="index.html">
+        <h2 class="title">CodeTraining</h2>
+				<img src="img/avatar.svg">
+				<h2 class="title2" style="font-size: medium;">Bienvenido</h2>
+           		<div class="input-div one">
+           		   <div class="i">
+           		   		<i class="fas fa-user"></i>
+           		   </div>
+           		   <div class="div">
+           		   		<h5>correo institucional</h5>
+           		   		<input type="text" class="input">
+           		   </div>
+           		</div>
+           		<div class="input-div pass">
+           		   <div class="i"> 
+           		    	<i class="fas fa-lock"></i>
+           		   </div>
+           		   <div class="div">
+           		    	<h5>contraseña</h5>
+           		    	<input type="password" class="input">
+            	   </div>
+            	</div>
+            	<a href="#">Forgot Password?</a>
+            	<input type="submit" class="btn" value="Entrar">
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="login.js"></script>
+</body>
 </html>
